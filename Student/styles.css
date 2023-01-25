@@ -1,0 +1,115 @@
+body {
+  background-color: #cec7cc;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#topPanel {
+  padding: 30px;
+  background-color: #f8f7f8;
+  border: 3px solid;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#canvasContainer {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#graphCanvas {
+  background-color: lightblue;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  border-color: black;
+  border: 2px solid;
+}
+
+#selectedVertexText {
+  margin-bottom: 20px;
+}
+
+#canvasImg {
+  top: 0;
+  display: block;
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#userInput {
+  background:lightblue;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px 15px 20px;
+  height: auto;
+  width: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  border-color: black;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+
+.columnLabel {
+  cursor: pointer;
+}
+
+.input {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-bottom: 10px;
+  width: 32.6%;
+  max-width: 115px;
+  height: 37.4px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.input:hover {
+  background-color: #2dbff5;
+  color: white;
+}
+
+.active {
+  border: 3px solid;
+}
+
+#graphText {
+  text-align: center;
+}
+
+#graphInformation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

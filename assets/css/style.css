@@ -1,0 +1,325 @@
+/*login form*/
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  margin-left:150px;
+  border-radius:10px;
+  background-color: #5c60f5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 55%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width:40%;
+  float:right;
+  margin-top:50px;
+  margin-right:0px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+color:gray;
+  float: right;
+  margin-right:255px;
+  padding-top: 16px;
+}
+.container h4{
+color:gray;
+margin-left:150px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+/*index*/
+body{
+    background: lightblue;
+}
+.vert{
+    float:left;
+    width:17%;
+    margin:10px;
+    border-radius:10px;
+    height:635px;
+    background:purple;
+}
+.vert h1{
+    color:Black;
+    text-align: center;
+    font-family: Castellar;
+    font-size: 20px ;
+}
+.vertical-menu {
+    width: 218px; /* Set a width if you like */
+    margin-top:50px;
+    margin-left:5px;
+}
+
+.vertical-menu a {
+    /*background-color: white; /* blue background color */
+    color: white; /* gray text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size:1.2rem;
+}
+.vertical-menu a:hover {
+    background-color: #eee; /* light grey background on mouse-over */
+    color:black;
+    border-left: solid #70A3FF;
+    border-radius:10px;
+}
+
+.vertical-menu a.active {
+    background-color: white; /* Add a blue color to the "active/current" link */
+    color: black;
+    border-radius:10px;
+    border-left: solid #70A3FF;
+}
+footer button{
+    margin-left:30px;
+    margin-top:80px;
+    margin-right:50px;
+    width:130px;
+    height:40px;
+    background:#70A3FF;
+    border-radius:10px;
+}
+
+/*calendrier*/
+.calendrier{
+    background:#FFFFFF;
+    float:right;
+    margin-right:170px;
+    border-radius:10px;
+    width:400px;
+    height:640px;
+    align-items:center;
+}
+
+/*licence*/
+.main{
+    float:left;
+    margin-left:10px;
+    margin-top:20px;
+}
+.main h2{
+    font-family: "Bell MT";
+    font-size:25px;
+}
+.annes{
+    background:white;
+    float:left;
+    margin-left:0px;
+    margin-top:15px;
+    border-radius:10px;
+    width:690px;
+    height:550px;
+}
+.annes .licence2{
+    background: #DBE8FF;
+    width:250px;
+    height:108px;
+    border-radius:10px;
+    float:left;
+    margin-left:15px;
+    /*margin-top:10px;*/
+}
+.annes .licence2 p{
+    color:gray;
+    margin-top:0px;
+}
+.annes .licence2 a h2{
+    margin-top:0px;
+    text-decoration:none;
+    display: inline-block;
+    color:black;
+}
+
+.annes h2{
+    margin-left:20px;
+    margin-top:0px;
+}
+.annes p{
+ margin-left:25px;
+}
+
+
+/*courses*/
+.course{
+    width:1000px;
+    height:540px;
+    border-radius:10px;
+}
+.theory{
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    background: white;
+    width:229px;
+    height:165px;
+    border-radius:10px;
+}
+.theory h3{
+    margin-left:10px;
+    margin-top:10px;
+    font-size:16px;
+}
+.theory p{
+    color:gray;
+    margin-left:10px;
+    margin-top:0px;
+}
+.theory a{
+    text-decoration:none;
+    display: inline-block;
+    color:black;
+    margin-top:0px;
+    font-weight: bold
+}
+
+/*test html*/
+.test{
+    width:1000px;
+    height:550px;
+    border-radius:10px;
+}
+.test h3{
+    margin-left:100px;
+    font-size:20px;
+}
+.new{
+    width:310px;
+    height:100%;
+   float:left;
+   margin-left:20px;
+   border-radius:10px;
+}
+.new p{
+color:gray;
+text-align:center;
+font-size:16px;
+margin-top:30px;
+}
+
+/*profile*/
+.mainpro{
+    float:left;
+    margin-left:20px;
+    margin-top:0px;
+}
+.mainpro h2{
+    font-family: "Bell MT";
+    font-size:25px;
+}
+.infopro{
+    background: white;
+    width:1000px;
+    height:585px;
+    border-radius:10px;
+}
+
+.infopro h3{
+    margin:15px;
+    color:black;
+    font-size:15px;
+}
+.infopro h4{
+    margin-left:18px;
+    color:gray;
+    font-size:10px;
+}
+.infopro img{
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+}
+.form {
+    float:left;
+    width:100%;
+    height:200px;
+}
+form{
+    margin-left:20px;
+    margin-top:0px;
+}
+
+form input{
+    border:none;
+    vertical-align: middle;
+    margin: 5px 10px 15px 0;
+    padding: 10px;
+    background-color: white;
+    margin-left:10px;
+}
+.name{
+    border:1px solid lightgray;
+    width:250px;
+    height:80px;
+    border-radius:10px;
+}
+.name label{
+    color:gray;
+    font-family: cursive;
+    font-size:10px;
+    margin-left:10px;
+    margin-top:10px;
+    border:none;
+}
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.profile{
+    height:170px;
+}
+input[type=submit]{
+    color:blue;
+    background:#70A3FF;
+    width:150px;
+    border-radius:10px;
+    border:none;
+    margin-left:250px;
+    text-align:center;
+}
+input[type=cancel]{
+    color:blue;
+    width:150px;
+    border-radius:10px;
+    border:1px solid blue;
+    text-align:center;
+}

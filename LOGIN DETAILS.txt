@@ -1,0 +1,32 @@
+**Database Name: els**
+
+
+
+
+**Admin Login Details** 
+
+Email	: admin@mail.com
+Password: Password@123
+
+
+**student Login Details** 
+
+///student 1:
+
+email:raounekarif@gmail.com
+username:raounek.arif
+password:Raounek@2702
+
+
+///student 2:
+
+email:roubila110@gmail.com
+username:roubila.khaldi
+password:Roubila@3005
+
+**Teacher Login Details** 
+
+email:a.boudjedir@hotmail.fr
+username:boudjedir
+password:Amina@1234
+
